@@ -1,6 +1,5 @@
 // vDevInterface.cpp : Defines the exported functions for the DLL application.
 //
-#pragma comment(lib, "vXboxInterface-Static")
 #include "stdafx.h"
 #include "..\API\vXboxInterface.h"
 #include "vDevInterface.h"
