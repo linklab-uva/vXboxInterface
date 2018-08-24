@@ -7,5 +7,5 @@ target_link_libraries(${PROJECT_NAME}_Test vXboxInterface)
 install(TARGETS ${PROJECT_NAME}_Test
         RUNTIME DESTINATION bin
         LIBRARY DESTINATION lib
-        ARCHIVE DESTINATION lib
+        ARCHIVE DESTINATION bin
 )

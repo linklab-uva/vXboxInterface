@@ -16,5 +16,5 @@ setupapi
 install(TARGETS vXboxInterface vXboxInterface-Static
         RUNTIME DESTINATION bin
         LIBRARY DESTINATION lib
-        ARCHIVE DESTINATION lib
+        ARCHIVE DESTINATION bin
 )
