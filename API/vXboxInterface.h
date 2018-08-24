@@ -1,8 +1,7 @@
 #include <Xinput.h>
 
-#if !defined(DYNAMIC_LIB) && !defined(STATIC_LIB)
-#define VXBOX_API __declspec(dllimport)
-#endif
+#define VXBOX_API
+
 
 #define DPAD_UP XINPUT_GAMEPAD_DPAD_UP
 #define DPAD_DOWN XINPUT_GAMEPAD_DPAD_DOWN
