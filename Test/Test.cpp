@@ -8,8 +8,6 @@
 #include "..\API\vXboxInterface.h"
 
 #ifndef XBOX
-#pragma comment(lib, "vXboxInterface")
-//#pragma comment(lib, "vXboxInterface-Static")
 
 int main()
 {
