@@ -4,6 +4,7 @@ project(vXboxInterface)
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS true)
 add_subdirectory(API)
 add_subdirectory(vDevInterface)
+add_subdirectory(devTest)
 add_subdirectory(Test)
 
 
